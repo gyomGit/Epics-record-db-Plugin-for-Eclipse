@@ -19,11 +19,11 @@ unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master** next to the 
 - Press **Next >** then **Finish**.
 - A dialog box appear: **Warning: You are installing software that contain unsigned content...**.
 - Press **Install anyway** the installation starts.
-- Then a dialog box appear: **Would you like to restart Eclipse IDE to apply the changes**.
+- Then a dialog box appear: **Would you like to restart Eclipse IDE to apply the changes ?**.
 - Press: **Restart Now**.
 - The Plugin is now installed in your Eclipse.
 
-### How to open and edit an Epics record file with this Db files Editor Plug-in in eclipse:
+### How to open and edit an Epics record file with this Db files Editor Plug-in in Eclipse:
 
 - First, if it is not already done, download and install Xtext in Eclipse IDE.
 - Then create a project, create any **file_name.db** file, actually any name with the extension **.db**.
