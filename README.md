@@ -15,7 +15,7 @@
 - in the dialog box type a name for your plugin such as **Db Text Editor** for instance.
 - Then press **Local...**.
 - In this field, indicate the local path to the folder named **Installer_db_editor_Eclipse_Plugin_version_1.0**
-situated in the unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master** next to the README.md file.
+situated in the unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master** next to the **README.md** file.
 - Check the first item (it is not useful to check the source one).
 - Press **Next >** then **Finish**.
 - A dialog box appear: **Warning: You are installing software that contain unsigned content...**
