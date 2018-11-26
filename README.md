@@ -4,8 +4,9 @@
 
 ### How to install this Plugin in Eclipse from this Github repository:
 
-- Click on **Clone or download** just above.
+- Click on **Clone or download** green box just above.
 - Choose **Download ZIP**.
+- A zip version of the plugin installer folder called **Epics-record-db-Plugin-for-Eclipse-master.zip** will download in your system.
 - Unzip the downloaded **Epics-record-db-Plugin-for-Eclipse-master.zip** folder.
 - You will obtained a folder called **Epics-record-db-Plugin-for-Eclipse-master**
 - Open the Eclipse Application.
