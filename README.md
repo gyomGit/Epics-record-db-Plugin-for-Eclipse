@@ -7,14 +7,14 @@
 - Click on **Clone or download** in the green box just above.
 - Choose **Download ZIP**.
 - The ZIP folder **Epics-record-db-Plugin-for-Eclipse-master.zip** will download in your system.
-- Unzip the downloaded **Epics-record-db-Plugin-for-Eclipse-master.zip** folder.
+- Unzip this downloaded **Epics-record-db-Plugin-for-Eclipse-master.zip** folder.
 - You will obtained a folder called **Epics-record-db-Plugin-for-Eclipse-master**
 - Open the Eclipse Application.
 - Go to **Help | Install New Software...**.
 - Press **Add...**.
 - in the dialog box type a name for your plugin such as **Db Text Editor** for instance.
 - Then press **Local...**.
-- In this field, indicate the local path to the folder named **Installer_db_editor_Eclipse_Plugin_version_xx**
+- In this field, indicate the local path to the folder named **Installer_db_editor_Eclipse_Plugin_version_1.0**
 situated in the unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master** next to the README.md file.
 - Check the first item (it is not useful to check the source one).
 - Press **Next >** then **Finish**.
