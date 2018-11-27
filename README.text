@@ -39,7 +39,7 @@ next to the **README.md** and **README.text** files.
 - Click **Finish**
 - This project **My_Epics_Records_Project** will appear in your Eclipse Package Explorer.
 
-## First way - Open an Epics record db file from the scratch:
+#### First way - Open an Epics record db file from the scratch:
 - Right click on the project **My_Epics_Records_Project** in the Eclipse Package Explorer and select **New | File**
 - In the field **File name: ** indicate a name like this: **file_name.db**, actually any name with the extension **.db**
 - A dialog box will pop up and ask you: Do you want to convert 'My_Epics_Records_Projectproject' to an Xtext project.
@@ -47,7 +47,7 @@ next to the **README.md** and **README.text** files.
 - You can now start to edit your **file_name.db** file using this Db files Editor Plug-in.
 - You can also copy and paste Db files content in your **file_name.db** and edit it.
 
-## Second way - Import an Epics record db file in your project:
+#### Second way - Import an Epics record db file in your project:
 - Right click on the project **My_Epics_Records_Project** in the Eclipse Package Explorer and select **Import...**
 - **File System** is selected (if not, select it) click **Next >**
 - Then **Browse...** to the directory where the Db record file you wish to import is located.
