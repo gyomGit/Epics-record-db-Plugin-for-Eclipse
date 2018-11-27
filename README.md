@@ -66,8 +66,10 @@ next to the **README.md** and **README.text** files.
 - You can also customise this list by creating your own templates to edit even faster.
 - To edit your own templates go in Eclipse Preferences unfold your File Editor Plugin name and choose **Templates**
 - You can notice in the **Templates** window that 12 templates are already there in action.
+- If there are not there click **import** then go in **Epics-record-db-Plugin-for-Eclipse-master** repository
+- Choose the file **templates.xml** to import click **OK** and **Apply**
 - Just create your own templates using the 12 existing templates as models, you'll see they will appear at the end of
-the Content assist pop up list while editing.
+the Content assist pop up lists while editing.
 - You can also use the Eclipse Outline view: go to **Window | Show View | Outline**
 - Finally if your Db record file is a bit messy just format it! Right click any where in your file and go to **Source | Format**
 
