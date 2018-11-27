@@ -33,7 +33,6 @@ next to the **README.md** and **README.text** files.
 
 ### How to open and edit an Epics record file with this Db files Editor Plug-in in Eclipse, two ways:
 
-- First, if it is not already done, download and install **Xtext** in your Eclipse because this plugin needs **Xtext** features to work.
 - Go to  **File | New | Project...**
 - Click **Next >** choose a project name... let say **My_Epics_Records_Project**
 - Click **Finish**
