@@ -8,28 +8,34 @@
 - Choose **Download ZIP**.
 - The ZIP folder **Epics-record-db-Plugin-for-Eclipse-master.zip** will download in your system.
 - Unzip this downloaded **Epics-record-db-Plugin-for-Eclipse-master.zip** folder.
-- You will obtained a folder called **Epics-record-db-Plugin-for-Eclipse-master**
-- In this unzipped folder you will find a folder called **Installer_db_editor_Eclipse_Plugin_version_1.0**. It is the folder Eclipse need to install the plugin, you gonna need to tell Eclipse where it is in your system.
+- You will obtained a folder called **Epics-record-db-Plugin-for-Eclipse-master**.
+- In this unzipped folder you will find a folder called **Installer_db_editor_Eclipse_Plugin_version_1.0**. It is the folder Eclipse needs to install the plugin, you are going to need to tell Eclipse where it is in your system.
 - To do so: open the Eclipse Application.
 - In the Eclipse application, go to **Help | Install New Software...**.
-- Click **Add...**
-- In the dialog box **Name:** your gonna name this plugin as you wish. Let say: **Db Text Editor** for instance.
-- Then press **Local...**.
+- Click **Add...**.
+- In the dialog box **Name:** your are going to name this plugin as you wish. Let say: **Db Text Editor** for instance.
+- Then click **Local...**.
 - Then go to this **Installer_db_editor_Eclipse_Plugin_version_1.0** in your system, select it and click **Open**.
 - In the field, below the name, this will indicate to your Eclipse the full local path to reach this folder named **Installer_db_editor_Eclipse_Plugin_version_1.0**
 - Remember, this folder is situated in the unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master**
-next to the **README.md** and **README.text** files.
-- Click **Add**
-- Eclipse will tell you **Check the item you wish to install**
-- In the window field below you will see two items: **DbTextEditor** and **DbTextEditor (Sources)**  Check the first item **DbTextEditor** (it is not useful to check the **DbTextEditor (Sources)**  one as it contains source code only useful for developers.
-- Click **Next >** Now your Eclipse says: **calculating the dependencies...**
+next to the **README.md**, **templates.xml** and **README.text** files.
+- Click **Add**.
+- Eclipse will tell you **Check the item you wish to install**.
+- In the window field below you can see two items: **DbTextEditor** and **DbTextEditor (Sources)**. Check the first item **DbTextEditor** (it is not useful to check the **DbTextEditor (Sources)** item as it contains source code only useful for developers.
+- Click **Next >**. Now your Eclipse says: **calculating the dependencies...**.
 - When Eclipse is done then click **Finish**.
-- A dialog box appear: **Warning: You are installing software that contain unsigned content...** don't worry
-- Click **Install anyway**
+- A dialog box appears: **Warning: You are installing software that contain unsigned content...** don't worry.
+- Click **Install anyway**.
 - the installation starts.
-- Then a dialog box appear: **Would you like to restart Eclipse IDE to apply the changes ?**
+- Then a dialog box appears: **Would you like to restart Eclipse IDE to apply the changes ?**
 - Click: **Restart Now**.
 - The Plugin is now installed in your Eclipse.
+
+### How to uninstall this Plugin from Eclipse.
+
+### How to develop this Plugin with Eclipse.
+
+- If you wish to develop this Plug-in here is the link: [dbTextEditorGitHub](https://github.com/gyomGit/dbTextEditorGitHub)
 
 ### How to open and edit an Epics record file with this Db files Editor Plug-in in Eclipse, two ways:
 
