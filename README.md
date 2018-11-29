@@ -85,7 +85,8 @@ next to the **README.md** and **README.text** files.
 - You can notice in the **Templates** window that 12 default templates are already there in action.
 - If there are not click **Restore Default** and they will appear.
 - These 12 default Eclipse DbTextEditor Templates are 10 kinds of **SCAN** definition and 2 **Macro** editing examples.
-- The 10 kinds of **SCAN** definition are triggered after **field(** contexts and the 2 **Macro** editing examples are triggered in between **field(SCAN** and the commas. These default templates can be restored any time by clicking **Restore Default**.
+- The 10 kinds of **SCAN** definition are triggered after **field(** contexts and the 2 **Macro** editing examples are triggered in between **field(SCAN** and the commas. These default templates can be restored any time by clicking **Restore Default**
+- But be careful because if you click **Restore Default** you will loose the templates you might have been creating.
 - You can also use the Eclipse Outline view: go to **Window | Show View | Outline**
 - Finally if your Db record file is a bit messy just format it! Right click any where in your file and go to **Source | Format**
 
