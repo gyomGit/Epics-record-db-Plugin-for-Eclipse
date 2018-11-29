@@ -1,6 +1,6 @@
 # Epics-record-db-Plugin-for-Eclipse
 
-## version 1.0
+## DbTextEditor Feature version 1.01
 
 ### How to install this Plugin in Eclipse from this Github repository:
 
@@ -9,7 +9,7 @@
 - The ZIP folder **Epics-record-db-Plugin-for-Eclipse-master.zip** will download in your system.
 - Unzip this downloaded **Epics-record-db-Plugin-for-Eclipse-master.zip** folder.
 - You will obtained a folder called **Epics-record-db-Plugin-for-Eclipse-master**.
-- In this unzipped folder you will find a folder called **Installer_db_editor_Eclipse_Plugin_version_1.0**. It is the folder Eclipse needs to install the plugin, you are going to need to tell Eclipse where it is in your system.
+- In this unzipped folder you will find a folder called **Installer_db_editor_Eclipse_Plugin_version_1.01**. It is the folder Eclipse needs to install the plugin, you are going to need to tell Eclipse where it is in your system.
 - To do so: open the Eclipse Application.
 - In the Eclipse application, go to **Help | Install New Software...**.
 - Click **Add...**.
@@ -18,7 +18,7 @@
 - Then go to this **Installer_db_editor_Eclipse_Plugin_version_1.0** in your system, select it and click **Open**.
 - In the field, below the name, this will indicate to your Eclipse the full local path to reach this folder named **Installer_db_editor_Eclipse_Plugin_version_1.0**
 - Remember, this folder is situated in the unzipped folder named **Epics-record-db-Plugin-for-Eclipse-master**
-next to the **README.md**, **templates.xml** and **README.text** files.
+next to the **README.md** and **README.text** files.
 - Click **Add**.
 - Eclipse will tell you **Check the item you wish to install**.
 - In the window field below you can see two items: **DbTextEditor** and **DbTextEditor (Sources)**. Check the first item **DbTextEditor** (it is not useful to check the **DbTextEditor (Sources)** item as it contains source code only useful for developers.
@@ -31,9 +31,19 @@ next to the **README.md**, **templates.xml** and **README.text** files.
 - Click: **Restart Now**.
 - The Plugin is now installed in your Eclipse.
 
-### How to uninstall this Plugin from Eclipse.
+### How to uninstall this Plugin from Eclipse:
 
-### How to develop this Plugin with Eclipse.
+- In the Eclipse application, go to **Help | Install New Software...**.
+- Click on *What is already installed*
+- Search, find and select the Plug-in **DbTextEditor Feature** in the list.
+- Click **Uninstall...**;
+- In the window : **Uninstall details**, click **Finish**
+- Now at the very bottom of your Eclipse window you can verify the uninstalling in progress.
+- A window pops up: **Would you like to restart Eclipse IDE to apply the changes?**
+- Click **Restart now**.
+- The Plug-in is now uninstalled from your Eclipse.
+
+### How to develop this Plugin with Eclipse:
 
 - If you wish to develop this Plug-in here is the link: [dbTextEditorGitHub](https://github.com/gyomGit/dbTextEditorGitHub)
 
@@ -60,22 +70,23 @@ next to the **README.md**, **templates.xml** and **README.text** files.
 - Check the box of the Db record file you wish to import and click **Finish**
 - Now your Db record file is imported in your **My_Epics_Records_Project** if you double click on it to open it:
 - Now if your project is empty and had just been created for this import:
-- A dialog box will pop up and ask you **Do you want to convert 'My_Epics_Records_Projectproject' to an Xtext project?**
+- A dialog box will pop up and ask you **Do you want to convert 'My_Epics_Records_Project' project to an Xtext project?**
 - Click **Yes**
 - You can now start to edit your imported Db record file using this Db files Editor Plug-in.
 - You can also copy and paste Db files content in your imported Db record file and edit it.
 
 ### How to edit a Db file with Db files Editor Plug-in in Eclipse:
-- Use *Control + Space* anywhere in the file to get an Auto completion proposal.
-- If you press *Control + Space* just after **record(** and just after **field(** you will get a Content assist pop up list according to each context with items ordered alphabetically.
-- Once this popup list is triggered you can type the first letters of the content you wish to choose and the list brings you straight away to the desired item.
-- You can also customise this list by creating your own templates to edit even faster.
-- To edit your own templates go in Eclipse Preferences unfold your File Editor Plugin name and choose **Templates**
-- You can notice in the **Templates** window that 12 templates are already there in action.
-- If there are not there click **import** then go in **Epics-record-db-Plugin-for-Eclipse-master** repository
-- Choose the file **templates.xml** to import click **OK** and **Apply**
-- Just create your own templates using the 12 existing templates as models, you'll see they will appear at the end of
-the Content assist pop up lists while editing.
+- Use *Control + Space* anywhere in the file to get an auto completion proposal.
+- If you press *Control + Space* just after **record(** and just after **field(** you will get a content assist pop-up list according to each context with items ordered alphabetically.
+- Once this content assist pop-up list is triggered you can type the first letters of the item you wish to select and the list brings you straight away to the desired item.
+- You can also customise these pop-up content assist lists by creating your own Eclipse templates to edit even faster.
+- With the Eclipse templates you can choose any place (or context) in the db record lines of code to create a content assist pop-up list according to your needs to edit even faster.
+- To edit your own templates go in Eclipse **Preferences...** unfold **DbTextEditor** and choose **Templates**.
+- You can notice in the **Templates** window that 12 default templates are already there in action.
+- If there are not click **Restore Default** and they will appear.
+- These 12 default Eclipse DbTextEditor Templates are 10 kinds of **SCAN** definition and 2 **Macro** editing examples.
+- The 10 kinds of **SCAN** definition are triggered after **field(** contexts and the 2 **Macro** editing examples are triggered in between **field(SCAN** and the commas. These default templates can be restored any time by clicking **Restore Default**
+- But be careful, if you click **Restore Default** you will loose the templates you might have been creating if you didn't export them first.
 - You can also use the Eclipse Outline view: go to **Window | Show View | Outline**
 - Finally if your Db record file is a bit messy just format it! Right click any where in your file and go to **Source | Format**
 
